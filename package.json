@@ -1,0 +1,32 @@
+{
+  "name": "sale",
+  "version": "0.2.0",
+  "description": "sale backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "start:prod": "node index.js",
+    "build": "npm install && npm run build"
+  },
+  "author": "James Vickery",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "deep-email-validator": "^0.1.21",
+    "dotenv": "^16.3.1",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.7.5",
+    "nodemon": "^3.0.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "password-generator": "^2.2.0",
+    "sequelize": "^6.35.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
